@@ -1,108 +1,115 @@
-## Hi there 👋
-
 <div align="center">
 
-# Abhay Kumar
+# Hey, I'm Abhay 👋
 
-### Backend & Full-Stack Engineer | NIT Raipur CSE '27
+### Backend & Full-Stack Engineer · NIT Raipur CSE '27
 
-Building real-time and AI-powered products with TypeScript, Node.js, React, WebSockets, and modern backend tooling.
+**From an API request to a completed job — I enjoy building what happens in between.**
 
+I build backend services, event-processing systems, and real-time products with TypeScript and Node.js.
 
-<img src="./profile.png" width="450" alt="Abhay Kumar at his coding desk" />
+<img src="./profile.png" width="550" alt="Abhay Kumar at his coding desk" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/abhay-kumar101/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Knight-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Abhay_code101/)
+<br />
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let%27s_Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/abhay-kumar101/)
+[![Email](https://img.shields.io/badge/Email-Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhaykumar.official101@gmail.com)
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-Knight%20%281973%29-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Abhay_code101/)
 [![Codeforces](https://img.shields.io/badge/Codeforces-Expert%20%281638%29-0000FF?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ak8578227)
-[![CodeChef](https://img.shields.io/badge/CodeChef-3_Star-5B4638?style=for-the-badge&logo=codechef)](https://www.codechef.com/users/abhay281)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhaykumar.official101@gmail.com)
+[![CodeChef](https://img.shields.io/badge/CodeChef-3_Star%20%281697%29-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/abhay281)
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## 🧭 What drives my work
 
-```typescript
-const abhay = {
-  education: "B.Tech CSE @ NIT Raipur (2023-2027)",
-  role: "Technical Core Coordinator @ Technocracy, NIT Raipur",
+I'm a **Computer Science undergraduate at NIT Raipur (2023–2027)** with a **CGPA of 8.2/10**. My interests sit where backend development meets platform engineering: API design, queues, retries, service orchestration, and observability.
 
-  focus: ["Backend Engineering", "Real-time Systems", "AI-Powered Products"],
-  stack: ["TypeScript", "Node.js", "React", "MongoDB", "Socket.IO", "C++"],
-  currentlyOpenTo: ["SDE Intern", "Backend", "Full-Stack Roles"]
-};
-```
-> 🚀 **Currently building:** dependable backend systems, real-time experiences, and better interview instincts - one shipped project at a time.
+I like working through the questions behind a feature: *What happens if a request arrives twice? If a worker fails? If an external API stops responding?*
 
-## 🚀 Featured Projects
+- **Building:** event-processing services and real-time messaging experiences.
+- **Engineering focus:** idempotency, authorization, failure recovery, and measurable system behavior.
+- **Beyond implementation:** documenting architecture, testing APIs, and making changes easier to review.
+- **Open to:** SDE internships and backend or full-stack opportunities for 2027.
 
-### [Chatty AI](https://github.com/abhikhurannah/Chatty-AI) | [Live Demo](https://chatty-ai-dusky.vercel.app/)
+## 🛠️ Selected builds
 
-Real-time messaging platform built with **React, TypeScript, Node.js, Express, Socket.IO, MongoDB, and Gemini API**.
+### ⚙️ EventForge — Give every event a path to completion
 
-- JWT authentication, MongoDB persistence, contact lists, chat history, media uploads, and profile pictures.
-- Socket.IO-based messaging and online presence without page refreshes.
-- Gemini-powered reply suggestions and conversation analysis.
+**A multi-tenant event-processing and job-queue platform with separate API and worker processes.**
 
-### [NewsNavigator](https://github.com/abhikhurannah/news-intel-story-spark) | [Live Demo](https://tinyurl.com/AI-News-Navigator)
+[Explore the code](https://github.com/abhikhurannah/EventForge) · [Live demo](https://event-forge-kappa.vercel.app/)
 
-AI-powered news intelligence platform built with **React, TypeScript, Supabase Edge Functions, Deno, Firecrawl, Gemini API, and SSE**.
+`React` `TypeScript` `Fastify` `MongoDB` `Redis` `BullMQ` `Docker Compose`
 
-- Converts article URLs into structured briefings with timelines, entities, statistics, and risk perspectives.
-- Streams article-grounded Q&A with Server-Sent Events and resilient API/quota-failure handling.
-- Includes documented architecture, data flow, local setup, limitations, and test strategy.
+- Built **idempotent event ingestion**, priority queues, exponential retries, and dead-letter recovery.
+- Implemented project-scoped authorization, shared rate limits, and **HMAC-signed webhooks** with independent retries.
+- Exposed job-state, failure-rate, and intake-to-completion latency metrics to make processing behavior visible.
 
-## 🏆 Highlights & Wins
+> **Measured locally:** across three Docker load-test bursts using a reference event handler, 1,500 events at 10 concurrent requests achieved **404–712 accepted requests/s** and **31–57 ms p95 ingestion latency**. All measured events completed successfully. These are local test results, not production throughput claims.
+
+### 💬 Chatty AI — Real-time conversations, thoughtful AI assistance
+
+**A messaging platform with online presence, image sharing, and Gemini-powered conversation tools.**
+
+[Explore the code](https://github.com/abhikhurannah/Chatty-AI) · [Live demo](https://chatty-ai-dusky.vercel.app/)
+
+`React` `TypeScript` `Node.js` `Express` `MongoDB` `Socket.IO` `Cloudinary` `Gemini API`
+
+- Persisted messages through REST APIs **before targeted Socket.IO delivery** and cleaned up listeners when switching conversations.
+- Implemented JWT authentication with HTTP-only cookies and Bearer tokens for cross-origin deployment; documented architecture, authentication, and API flows.
+- Added AI reply suggestions, typing autocomplete with **600 ms debouncing**, conversation analysis, and fallback responses when the AI API fails.
+
+## 💼 Where I've contributed
+
+### Web Developer Intern · AshwaQuant Pvt. Ltd.
+*May 2025 – July 2025*
+
+- Developed Node.js and Express REST APIs for form submissions and lead capture.
+- Integrated a third-party payment gateway into the onboarding workflow.
+- Built and deployed a responsive React website using reusable components; tested and debugged APIs with Postman and managed changes with Git.
+
+### Technical Core Coordinator · Technocracy, NIT Raipur
+*May 2024 – Present*
+
+- Maintained the React/TypeScript and Node.js portal and coordinated feature delivery with the technical team.
+- Created reusable React components and configured GitHub Actions CI/CD.
+- Documented changes for review and introduced a code-review checklist before merging.
+
+## 🧰 Tools behind the work
+
+| Area | Technologies & concepts |
+| :--- | :--- |
+| **Languages** | C++, Python, JavaScript, TypeScript, SQL |
+| **Backend** | Node.js, Express.js, Fastify, REST APIs |
+| **Data & queues** | MongoDB, Redis, BullMQ |
+| **Platform engineering** | Distributed systems, service orchestration, queues, retries, observability, API design |
+| **Frontend & real-time** | React, Socket.IO |
+| **Development & delivery** | Git, GitHub, GitHub Actions, Docker Compose, Linux/UNIX, Postman |
+| **Foundations** | Data structures & algorithms, OOP, operating systems, computer networks, DBMS |
+
+## 🏆 Milestones along the way
 
 | Achievement | Detail |
-| --- | --- |
-| Amazon ML Challenge 2025 | **All India Rank 818** among 85,000+ teams |
-| ET Gen AI Hackathon, The Economic Times (2025) | **Winning Team** - built NewsNavigator |
-| LeetCode | **Knight** (1970+ rating) |
-| Codeforces | **Expert** (1638 rating) |
-| CodeChef | **3 Star** (1690+ rating) |
-| LeetCode Weekly Contest 473 | **Global Rank 246** |
-| Problem solving | **1,600+** DSA and competitive-programming problems solved |
-| GATE 2026 | Qualified, Computer Science and Engineering |
-| KVPY Scholar 2022 | AIR 2000, top 1% nationwide |
-
-## 🧠 Technical Toolkit
-
-**Languages**  
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-**Backend & Full Stack**  
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-
-**Engineering Tools**  
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-## 🤝 Beyond Code
-
-- **Technical Core Coordinator**, Technocracy, NIT Raipur (May 2024 - Present)  
-  Maintain the official website with React, TypeScript, and Node.js; collaborate through Git to deliver feature and event updates.
-
-- **Sports Committee Member**, ACE, NIT Raipur (Aug 2024 - Present)  
-  Coordinate registrations, schedules, and on-ground execution for departmental sports events.
+| :--- | :--- |
+| **LeetCode** | Knight · **1973** |
+| **Codeforces** | Expert · **1638** |
+| **CodeChef** | 3-Star · **1697** |
+| **Economic Times Gen AI Hackathon 2025** | Winning team — [NewsNavigator](https://github.com/abhikhurannah/news-intel-story-spark) |
+| **Amazon ML Challenge 2025** | All India Rank **818** |
+| **GATE 2026** | Qualified — Computer Science and Engineering |
+| **KVPY Scholar 2022** | All India Rank **2000** |
 
 ---
 
 <div align="center">
 
-**Open to SDE internship opportunities for 2027.**  
-💬 If you find something interesting here, let's connect.
+### Build. Observe. Improve. Repeat.
+
+Interested in backend systems, real-time products, or building something useful together?
+
+[Let's connect](https://www.linkedin.com/in/abhay-kumar101/) · [Drop me a note](mailto:abhaykumar.official101@gmail.com)
 
 </div>
