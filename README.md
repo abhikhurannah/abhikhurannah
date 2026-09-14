@@ -9,11 +9,11 @@
 Building real-time and AI-powered products with TypeScript, Node.js, React, WebSockets, and modern backend tooling.
 
 
-<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="450" alt="Developer at work" />
+<img src="./profile.png" width="450" alt="Abhay Kumar at his coding desk" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/abhay-kumar101/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Knight-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Abhay_code101/)
-[![Codeforces](https://img.shields.io/badge/Codeforces-Specialist-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ak8578227)
+[![Codeforces](https://img.shields.io/badge/Codeforces-Expert%20%281638%29-0000FF?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ak8578227)
 [![CodeChef](https://img.shields.io/badge/CodeChef-3_Star-5B4638?style=for-the-badge&logo=codechef)](https://www.codechef.com/users/abhay281)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhaykumar.official101@gmail.com)
 
@@ -60,7 +60,7 @@ AI-powered news intelligence platform built with **React, TypeScript, Supabase E
 | Amazon ML Challenge 2025 | **All India Rank 818** among 85,000+ teams |
 | ET Gen AI Hackathon, The Economic Times (2025) | **Winning Team** - built NewsNavigator |
 | LeetCode | **Knight** (1970+ rating) |
-| Codeforces | **Specialist** (1580+ rating) |
+| Codeforces | **Expert** (1638 rating) |
 | CodeChef | **3 Star** (1690+ rating) |
 | LeetCode Weekly Contest 473 | **Global Rank 246** |
 | Problem solving | **1,600+** DSA and competitive-programming problems solved |
