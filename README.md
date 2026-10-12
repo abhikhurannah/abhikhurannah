@@ -1,10 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0F172A,50:2563EB,100:06B6D4&text=Abhay%20Kumar&fontColor=ffffff&fontSize=52&fontAlignY=39&desc=Backend%20%26%20Full-Stack%20Engineer%20%E2%80%A2%20NIT%20Raipur%20%E2%80%9927&descSize=17&descAlignY=60&animation=fadeIn" width="100%" alt="Abhay Kumar profile header" />
+<h1>Abhay Kumar</h1>
+<p><strong>Backend &amp; Full-Stack Engineer · NIT Raipur ’27</strong></p>
 
-<a href="https://github.com/abhikhurannah">
-  <img src="https://github.com/abhikhurannah.png?size=320" width="160" height="160" alt="Abhay Kumar profile picture" />
-</a>
+<p>
+  <a href="https://github.com/abhikhurannah">
+    <img src="./profile.png" width="200" alt="Abhay Kumar profile picture" />
+  </a>
+</p>
 
 **From an API request to a completed job — I enjoy building what happens in between.**
 
