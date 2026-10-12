@@ -21,7 +21,7 @@ I build **reliable backend services, event-driven systems, real-time application
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Knight%20%7C%201973-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/Abhay_code101/)
 [![Codeforces](https://img.shields.io/badge/Codeforces-Expert%20%7C%201638-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ak8578227)
-[![CodeChef](https://img.shields.io/badge/CodeChef-4%E2%98%85%20%7C%201750-5B4638?style=flat-square&logo=codechef&logoColor=white)](https://www.codechef.com/users/abhay281)
+[![CodeChef](https://img.shields.io/badge/CodeChef-4%E2%98%85%20%7C%201750%2B-5B4638?style=flat-square&logo=codechef&logoColor=white)](https://www.codechef.com/users/abhay281)
 
 </div>
 
@@ -33,19 +33,6 @@ I build **reliable backend services, event-driven systems, real-time application
 - 🧩 **1,800+ DSA / competitive programming problems** solved
 - 🤝 Contributed a **merged TypeScript backend fix** to open source, backed by integration tests
 - 💼 Open to **SDE / backend / full-stack opportunities** for 2027
-
-## ⚡ Engineering by the numbers
-
-<div align="center">
-
-| 🧠 Problem solving | 🏅 Competitive coding | 🚀 EventForge local benchmark | 🏆 Hackathons |
-| :---: | :---: | :---: | :---: |
-| **1,800+ problems** | **LC 1973 · CF 1638** | **404–712 req/s** | **ET Gen AI winner** |
-| DSA & CP | CC **4★ · 1750** | **31–57 ms p95** ingestion | Amazon ML **AIR 545 / 818** |
-
-<sub>EventForge numbers are from three local Docker test bursts with 1,500 events; they are not production throughput claims.</sub>
-
-</div>
 
 ## 🧰 Tech stack
 
@@ -182,7 +169,7 @@ I build **reliable backend services, event-driven systems, real-time application
 | 🧠 **Amazon ML Challenge 2026** | **AIR 545** — Business Entity Resolution |
 | 🤖 **Amazon ML Challenge 2025** | **AIR 818** among 85,000+ teams |
 | ♟️ **LeetCode** | **Knight, 1973** · WC 495 rank **804** · BWC 192 rank **311** |
-| ⚔️ **Codeforces / CodeChef** | **Expert, 1638** / **4-Star, 1750** |
+| ⚔️ **Codeforces / CodeChef** | **Expert, 1638** / **4-Star, 1750+ rating** |
 | 📚 **GATE CSE 2025 / KVPY 2022** | **AIR 9221** / **AIR 2000** |
 
 ---
