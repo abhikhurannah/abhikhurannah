@@ -1,11 +1,13 @@
 <div align="center">
 
-<h1>Abhay Kumar</h1>
+<p>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;weight=600&amp;size=32&amp;duration=2800&amp;pause=1400&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=75&amp;lines=Hi%2C+I%27m+Abhay%21%3BI+turn+ideas+into+APIs.%3BBuilding+systems.+Solving+problems.&amp;repeat=true" width="760" alt="Hi, I’m Abhay! I turn ideas into APIs. Building systems. Solving problems." />
+</p>
 <p><strong>Backend &amp; Full-Stack Engineer · NIT Raipur ’27</strong></p>
 
 <p>
   <a href="https://github.com/abhikhurannah">
-    <img src="./profile.png" width="200" alt="Abhay Kumar profile picture" />
+    <img src="./profile.png" width="500" alt="Abhay Kumar profile picture" />
   </a>
 </p>
 
@@ -152,15 +154,9 @@ I build **reliable backend services, event-driven systems, real-time application
 - Built a full-stack trading-education course platform, supporting enrollment and onboarding.
 - Integrated **Razorpay** payment processing and verification; developed and tested **Node.js / Express REST APIs**.
 
-## 📊 GitHub activity & contribution highlights
+## 📊 Contribution highlights
 
 <div align="center">
-
-<!-- Third-party cards can occasionally be rate-limited. -->
-<img src="https://github-readme-stats.vercel.app/api?username=abhikhurannah&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=tokyonight" alt="Abhay's GitHub statistics" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhikhurannah&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Most used languages in public repositories" height="170" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=abhikhurannah&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" width="98%" alt="GitHub contribution activity over time" />
 
 ### 🌌 My contributions in 3D
 
